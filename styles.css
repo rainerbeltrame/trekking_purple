@@ -401,7 +401,7 @@ footer {
 .maintance-container {
   min-width: 100%;
   min-height: 92.2vh;
-  background-image: url("./img/2840523.jpg");
+  background: url("./img/2840523.jpg") no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
