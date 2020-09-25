@@ -294,6 +294,9 @@ footer {
   .main-message {
     transform: translateY(40%);
   }
+  .maintance-container h1 {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 470px) {
   .hero::before {
@@ -305,6 +308,9 @@ footer {
     height: 9.4rem;
     background: url("img/wave-medium-reversed.png");
     background-size: cover;
+  }
+  .maintance-container h1 {
+    font-size: 3rem;
   }
 }
 @media screen and (min-width: 700px) {
@@ -355,7 +361,8 @@ footer {
   .nav-link:hover::before {
     transform: scaleX(1);
   }
-  .hero {
+  .hero,
+  .maintance-container {
     height: 60vh;
   }
   .main-message {
@@ -363,6 +370,9 @@ footer {
   }
   .title-heading h1 {
     font-size: 2.5rem;
+  }
+  .maintance-container h1 {
+    font-size: 4rem;
   }
 }
 @media screen and (min-width: 950px) {
@@ -376,10 +386,16 @@ footer {
     background: url("img/wave-large-reversed.png");
     background-size: cover;
   }
+  .maintance-container h1 {
+    font-size: 5rem;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     height: 75vh;
+  }
+  .maintance-container h1 {
+    font-size: 7rem;
   }
 }
 #maintance-header {
@@ -399,7 +415,6 @@ footer {
   );
 }
 .maintance-container {
-  min-width: 100%;
   min-height: 92.2vh;
   background: url("./img/2840523.jpg") no-repeat;
   background-size: cover;
@@ -407,7 +422,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 5rem;
   font-family: "Aldrich", sans-serif;
   color: #d7d4ed;
 }
